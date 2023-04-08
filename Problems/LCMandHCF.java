@@ -1,29 +1,31 @@
 package Problems;
 
+import java.sql.SQLOutput;
+import java.util.Arrays;
 import java.util.Scanner;
 
 import static java.lang.Math.min;
 
+
 public class LCMandHCF {
     static Long[] lcmAndGcd(Long A, Long B) {
         // code here
-        int hcf = 1;
-        long mini = min(A, B);
-        for (int i = 1; i < mini; i++) {
-            if (A % i == 0 && B % i == 0)
-                hcf = i;
+       Long gcd = null;
+        int ans;
+
+        if (B == 0) {
+           gcd=A;
+            System.out.println(gcd);
         }
-
-        Long LCM = (A * B) / hcf;
-        Long val[]={LCM, (long) hcf};
-        return val;
-
+        return lcmAndGcd(B, A % B);
+        //System.out.println(A*B/gcd);
     }
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-        LCMandHCF obj=new LCMandHCF();
+//        LCMandHCF obj=new LCMandHCF();
         Long k= sc.nextLong();
         Long m=sc.nextLong();
-        lcmAndGcd(k,m);
+       // lcmAndGcd(k,m);
+        System.out.println(Arrays.toString(lcmAndGcd(k, m)));
     }
 }
