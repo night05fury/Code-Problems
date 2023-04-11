@@ -39,9 +39,9 @@ public class Rotate_array {
 //            ans[j+k] = nums[j];
 //        }
         System.arraycopy(ans, 0, nums, 0, n);
-        for(int i = 0; i < n ; i++){
-            nums[i] = ans[i];
-        }
+//        for(int i = 0; i < n ; i++){
+//            nums[i] = ans[i];
+//        }
 
     }
 
