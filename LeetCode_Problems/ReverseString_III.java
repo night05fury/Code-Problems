@@ -1,4 +1,4 @@
-package Problems;
+package LeetCode_Problems;
 
 public class ReverseString_III {
     static void revString (String s)

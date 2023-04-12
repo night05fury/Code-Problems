@@ -1,4 +1,4 @@
-package Problems;
+package LeetCode_Problems;
 
 public class Fibonacci_Numbers {
     static int fibo(int n)

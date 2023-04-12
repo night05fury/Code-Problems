@@ -1,4 +1,4 @@
-package Problems;
+package LeetCode_Problems;
 import java.util.Scanner;
 public class CountDIgits {
     void countDigit(int n)

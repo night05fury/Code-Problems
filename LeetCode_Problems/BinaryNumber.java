@@ -1,4 +1,4 @@
-package Problems;
+package LeetCode_Problems;
 
 class BinaryNumber{
     public int search(int[] nums, int target) {

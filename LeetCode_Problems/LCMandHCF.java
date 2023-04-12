@@ -1,6 +1,5 @@
-package Problems;
+package LeetCode_Problems;
 
-import java.sql.SQLOutput;
 import java.util.Arrays;
 import java.util.Scanner;
 

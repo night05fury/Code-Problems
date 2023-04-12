@@ -1,4 +1,4 @@
-package Problems;
+package LeetCode_Problems;
 
 public class ReverseA_Number {
     public static void main(String[] args) {
